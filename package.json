@@ -1,15 +1,15 @@
 {
-        "schema_version": "1.0",
-        "name" : "mx_stars_field",
-        "label": "MX Stars Field",
-        "version": "2.7.0",
-        "types": ["fieldtype"],
-        "paths": {
-                "system": [
-                        "system/expressionengine/third_party/mx_stars_field"
-                ],
-                "themes": [
-                        "themes/third_party/mx_stars_field"
-                ]
-        }
+    "schema_version": "1.0",
+    "name": "mx_stars_field",
+    "label": "MX Stars Field",
+    "version": "2.7.2",
+    "types": ["fieldtype"],
+    "paths": {
+        "system": [
+            "system/expressionengine/third_party/mx_stars_field"
+        ],
+        "themes": [
+            "themes/third_party/mx_stars_field"
+        ]
+    }
 }
