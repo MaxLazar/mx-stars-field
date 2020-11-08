@@ -26,13 +26,14 @@ class Mx_stars_field_ft extends EE_Fieldtype
 
     public $field2ee =  array('boolean' => 'toggle', 'number' => 'text', 'select'=>'select', 'function'=>'textarea', 'string' => 'text', 'array' => 'textarea', 'object' => 'textarea');
 
-    private static $js_added = false;
-    private static $cell_bind = true;
-    private static $grid_bind = true;
+    private static $js_added         = false;
+    private static $cell_bind        = true;
+    private static $grid_bind        = true;
 
-    private $fallback_content = '';
+    private $fallback_content        = '';
     public $cell_name;
-    public $has_array_data = false;
+    public $has_array_data           = false;
+    public $entry_manager_compatible = true;
 
     /**
      * Package name.
