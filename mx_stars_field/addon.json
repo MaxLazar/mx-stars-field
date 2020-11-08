@@ -1,0 +1,16 @@
+{
+  "name": "MX Stars Field",
+  "shortname": "mxstarsfield",
+  "version": "3.0.0",
+  "foundation_version": "4.5.2",
+  "description": "An easy to use and highly flexible ratings field for ExpressionEngine",
+  "license": "MaxLazar",
+  "namespace": "MX\\StarsField",
+  "require": {
+    "php": ">=5.3.*",
+    "expressionengine/core": ">=3.5.17"
+  },
+  "resources": {
+    "themes": true
+  }
+}
