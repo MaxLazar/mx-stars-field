@@ -29,8 +29,9 @@
 	* Font Awesome Link
 * Extended view for Entry Manager
 * Preview on Settings page
-* Extended settings 
-	
+* Extended settings
+* Tags to show average across multi entries
+
 ## Support Policy
 This is Communite Edition  add-on.
 
