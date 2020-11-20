@@ -50,3 +50,7 @@ Please submit a merge request after you finish development.
 ## License
 
 The MX Stars Field is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+## Thanks 
+
+Icons made by ["Pixel perfect"](https://www.flaticon.com/authors/pixel-perfect) from [www.flaticon.com](https://www.flaticon.com/)

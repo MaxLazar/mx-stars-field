@@ -79,6 +79,8 @@ class Mx_stars_field_ft extends EE_Fieldtype
         'channel',
         'fluid_field',
         'grid',
+        'bloqs/1',
+        'blocks/1"'
         );
 
         return in_array($name, $compatibility, false);
@@ -291,7 +293,7 @@ class Mx_stars_field_ft extends EE_Fieldtype
         $config = self::getConfigFromFile('mx_stars_field/Settings/StarsField');
 
         if (self::$grid_bind and $view_type == 'grid') {
-            $js = " var newGridRowCount = 0;
+            $js = " var newGridRowCountSf = 0;
                     Grid.bind('mx_stars_field', 'display', function(cell)
             {
                     var cell_obj = cell.find('.mx-rate');
@@ -299,7 +301,7 @@ class Mx_stars_field_ft extends EE_Fieldtype
                     if (cell.data('row-id')) {
                         rowId = cell.data('row-id');
                     } else {
-                        rowId = 'new_row_' + ++newGridRowCount;
+                        rowId = 'new_row_' + ++newGridRowCountSf;
                     }
 
                     id = cell.parents('.grid-field').attr('id') + '[rows][row_id_' + rowId + '][col_id_' + cell.data('column-id') + ']';
